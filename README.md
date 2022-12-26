@@ -1,7 +1,12 @@
 # gairaigo-blockchain
 ### Getting started
 
-requirements:
+requirements for blockchain proj:
+
+```cmd
+python -m venv /path/to/venv
+/path/to/venv/Scripts/activate
+```
 
 ```cmd
 pip install requests
@@ -13,6 +18,29 @@ pip install aiohttp
 
 ```cmd
 pip install pycryptodome
+```
+
+requirements for gairaigo-site proj:
+
+```cmd
+python -m venv /path/to/venv
+/path/to/venv/Scripts/activate
+```
+
+```cmd
+pip install requests
+```
+
+```cmd
+pip install flask
+```
+
+```cmd
+pip install flask-sqlalchemy
+```
+
+```cmd
+pip install flask-migrate
 ```
 
 Specify the `token` for your telegram bot and the host for your gairaigo-site in the config dictionary from the blockchain module (app/__init__.py)
