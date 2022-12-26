@@ -17,7 +17,7 @@ migrate = Migrate(app, db)
 
 path_to_last_messenger_update = os.path.join(path_to_workdir, 'last_messenger_update')
 
-API_TOKEN = '5835970149:AAEfSM17wQ3jDmhwQQ3JVLspwbDBCzEVJoo'
+API_TOKEN = '<your token>'
 
 
 def get_url(method, **options):
