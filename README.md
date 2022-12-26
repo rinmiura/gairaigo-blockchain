@@ -20,6 +20,14 @@ pip install aiohttp
 pip install pycryptodome
 ```
 
+```cmd
+mkdir tmp
+```
+
+```cmd
+python gairaigo.py
+```
+
 requirements for gairaigo-site proj:
 
 ```cmd
@@ -41,6 +49,10 @@ pip install flask-sqlalchemy
 
 ```cmd
 pip install flask-migrate
+```
+
+```cmd
+python gairaigo.py
 ```
 
 Specify the `token` for your telegram bot and the host for your gairaigo-site in the config dictionary from the blockchain module (app/__init__.py)
