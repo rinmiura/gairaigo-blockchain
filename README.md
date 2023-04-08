@@ -1,66 +1,7 @@
 # gairaigo-blockchain
 ### Getting started
 
-requirements for blockchain proj:
-
-```cmd
-python -m venv /path/to/venv
-/path/to/venv/Scripts/activate
-```
-
-```cmd
-pip install requests
-```
-
-```cmd
-pip install aiohttp
-```
-
-```cmd
-pip install pycryptodome
-```
-
-```cmd
-mkdir tmp
-```
-
-```cmd
-python gairaigo.py
-```
-
-requirements for gairaigo-site proj:
-
-```cmd
-python -m venv /path/to/venv
-/path/to/venv/Scripts/activate
-```
-
-```cmd
-pip install requests
-```
-
-```cmd
-pip install flask
-```
-
-```cmd
-pip install flask-sqlalchemy
-```
-
-```cmd
-pip install flask-migrate
-```
-
-```cmd
-python gairaigo.py
-```
-
-Specify the `token` for your telegram bot and the host for your gairaigo-site in the config dictionary from the blockchain module (app/__init__.py)
-```py
-def run(host, port):
-    config['API_TOKEN'] = '<your token>'
-    config['PROXY_URL'] = '<your proxy host>'
-```
+in order for the blockchain network to work continuously and successfully, the IP addresses of the current nodes and the current transaction chain must be stored by a third-party service. The host of such a web service is set in app/config.json
 
 ### Description of the blockchain
 
@@ -142,26 +83,3 @@ def sign_transaction(transaction, private, timestamp, comment="it's never been a
     }
 ```
 The `verify_transaction` function verifies transactions in the block that the blockchain nodes receive from other miners who have mined a new block. Allows you to verify the authenticity of the sender's identity, the presence of unspent transactions on his account, necessary for the transaction
-
-### Description of the gairaigo-site
-
-Gairaigo-site is a proxy for interacting with the external telegram API. Collects reports from blockchain nodes and stores pairs of values in the database of the miner's public key-the current ip. Transmits to each node in the network a list of IP addresses of the other participants. Sends updates from the telegram bot to all network participants. Miners do not respond to users directly, but through the site to avoid duplication of messages.
-
-Before launching the blockchain (for example, multiple copies on different ports), make sure that gairaigo-site is working and you have correctly specified the proxy address in app/__init__.py
-
-For more effective tests, you can change the values of the complexity of the new block and the delay time during mining:
-```py
-while self.hash[:difficulty] != '0' * difficulty and not thread_stop:
-    self.nonce += 1
-    self.hash = self.get_hash()
-    if self.nonce % 100 == 0:
-        await sleep(random.randrange(10, 20)/10)
-```
-```py
-class Blockchain:
-
-  def __init__(self, host):
-    ...
-    self.difficulty = 3
-    ...
-```
