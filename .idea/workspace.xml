@@ -1,38 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="72e0f199-8880-46dc-8c0e-5ccc3543a120" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gairaigo-blockchain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gairaigo-blockchain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain/.idea/blockchain.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain/app/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain/app/blockchain.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain/app/chain_manager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain/app/eventloop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain/app/rsa.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain/app/transactions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain/app/validator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain/gairaigo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gairaigo-site/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gairaigo-site/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gairaigo-site/.idea/gairaigo-site.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gairaigo-site/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gairaigo-site/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gairaigo-site/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gairaigo-site/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gairaigo-site/app/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gairaigo-site/app/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gairaigo-site/app/routes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gairaigo-site/app/updates.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gairaigo-site/gairaigo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements" beforeDir="false" afterPath="$PROJECT_DIR$/requirements" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
